@@ -1,6 +1,5 @@
-package com.ethicmedia.orderservice.errors;
+package fr.pmu.course.dtos;
 
-import com.ethicmedia.orderservice.exceptions.ErrorCodes;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
@@ -15,9 +14,7 @@ import java.util.List;
 @Builder
 public class ErrorDto {
 
-  private Integer httpCode;
-
-  private ErrorCodes code;
+  private Integer statusCode;
 
   private String message;
 

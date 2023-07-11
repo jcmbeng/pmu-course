@@ -1,2 +1,6 @@
-package fr.pmu.course.repositories;public class CoursePartant {
+package fr.pmu.course.repositories;
+
+public class CoursePartant
+{
+
 }

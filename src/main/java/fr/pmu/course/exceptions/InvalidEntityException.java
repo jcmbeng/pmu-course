@@ -1,13 +1,13 @@
-package com.ethicmedia.orderservice.exceptions;
+package fr.pmu.course.exceptions;
 
 import lombok.Getter;
 
 import java.util.List;
 
+
 public class InvalidEntityException extends RuntimeException {
 
-    @Getter
-    private ErrorCodes errorCode;
+
     @Getter
     private List<String> errors;
 
@@ -19,19 +19,8 @@ public class InvalidEntityException extends RuntimeException {
         super(message, cause);
     }
 
-    public InvalidEntityException(String message, Throwable cause, ErrorCodes errorCode) {
-        super(message, cause);
-        this.errorCode = errorCode;
-    }
-
-    public InvalidEntityException(String message, ErrorCodes errorCode) {
+    public InvalidEntityException(String message,  List<String> errors) {
         super(message);
-        this.errorCode = errorCode;
-    }
-
-    public InvalidEntityException(String message, ErrorCodes errorCode, List<String> errors) {
-        super(message);
-        this.errorCode = errorCode;
         this.errors = errors;
     }
 }

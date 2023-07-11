@@ -1,7 +1,7 @@
 package fr.pmu.course.repositories;
 
-import fr.pmu.course.models.Course;
+import fr.pmu.course.models.Partant;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface CourseRepository extends JpaRepository<Course, Long> {
+public interface PartantRepository extends JpaRepository<Partant, Long> {
 }
