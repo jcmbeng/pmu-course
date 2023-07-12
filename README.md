@@ -16,11 +16,11 @@ Le projet a été réalisé avec les principaux élements suivants :
 
 Pour déployer il faut suivre les étapes suivantes :
 
-1-  Créer un copie locale du projet
-2-  Créer une base de données nommée avec le SGBD de votre choix (MySQL, PostgreSQL,  H2 database,...) la base de données doit être nommée "course", 
+-  1-  Créer un copie locale du projet
+-  2-  Créer une base de données nommée avec le SGBD de votre choix (MySQL, PostgreSQL,  H2 database,...) la base de données doit être nommée "course", 
 Au cas où vous choisissez une autre base de données autre que PostgreSQL, veuillez à mettre le fichier pom.xml à jour
-3- Ouvrir le avec un IDE de 
-4- Le broker utilisé est une instance locale de KAFKA
+-  3- Ouvrir le avec un IDE de 
+-  4- Le broker utilisé est une instance locale de KAFKA
 
 
 Une fois le projet démarré, un description des API est faite avec Swagger OpenAPI 
