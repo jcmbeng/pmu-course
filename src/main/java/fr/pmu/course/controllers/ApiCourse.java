@@ -32,7 +32,7 @@ public interface ApiCourse
 
     @Operation(
             summary = "Création d'une nouvelle course",
-            description = "Cette méthode récupère permet la création d'une nouvelle course"
+            description = "Cette méthode permet la création d'une nouvelle course"
     )
 
     @ResponseStatus(HttpStatus.CREATED)
