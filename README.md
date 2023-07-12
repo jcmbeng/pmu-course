@@ -5,7 +5,7 @@ Le présent projet a été réalisé en vu de répondre au test technique chez P
 Le projet a été réalisé avec les principaux élements suivants : 
 
 -   Framework : JAVA Spring Boot 3.0.8
--   Broker : KAFKA
+-   Broker : KAFKA (Le topic par défaut est pmu-course)
 -   SGBD : PostgreSQL
 
 
